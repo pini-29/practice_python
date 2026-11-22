@@ -64,4 +64,31 @@
 # print(f"the all amount is {bill_amount+tip}")
 # print(f"all diner need pay {(bill_amount+tip)/num_of_diners}")
 #11
+# a = 10
+# b = 20
+# a,b = b,a
+# print(a)
+# print(b)
+#12
+# name = input("enter your privte name")
+# last_name = input("enter your last name")
+# age = input("enter your age")
+# instatution = input("enter the lerning instatution")
+# course = input("enter the course name")
+# month_lerning = int(input("enter the month lerning"))
+# monthly_price = int(input("enter the monthly price"))
+# print("================================")
+# print("       STUDENT REGISTRATION     ")
+# print("================================")
+# print(f"Student: {name} {last_name}")
+# print(f"Age: {age}")
+# print(f"Institution: {instatution}")
+# print(f"Course: {course}")
+# print(f"Duration: {month_lerning} Months")
+# print(f"Monthly Price: {monthly_price}")
+# print(f"Total Course Price: {monthly_price*month_lerning}")
+# print("================================")
+# print("Registration completed!")
+# print("================================")
+
 
