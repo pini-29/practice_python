@@ -251,7 +251,9 @@
 #     if choice == "2":
 #         print(f"You have {counter} points")
 #     if choice == "3":
-#         runing = False        
+#         runing = False
+# 
+ 
 
 
 
