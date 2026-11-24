@@ -93,33 +93,33 @@
 # full_santance = input("enter full santance")
 # print(full_santance,len(full_santance),full_santance.upper(),full_santance.lower(),full_santance[::-1],full_santance.count("a"),full_santance.replace(' ',"-"))
 #19
-custumer_name = input("enter your name: ")
-products_name = input("enter the product name: ")
-product_price = int(input("enter product price: "))
-quntaty_products = int(input("enter the quntaty: "))
-precnt_discount = int(input("enter the precnt discount: "))
-vat = float(input("enter the vat"))
-total = product_price*quntaty_products
-discount = total*precnt_discount/100
-totali = discount*vat/100
-print("================================")
-print("       PURCHASE INVOICE         ")
-print("================================")
-print(f"Customer: {custumer_name}")
-print(f"Product: {products_name}")
+# custumer_name = input("enter your name: ")
+# products_name = input("enter the product name: ")
+# product_price = int(input("enter product price: "))
+# quntaty_products = int(input("enter the quntaty: "))
+# precnt_discount = int(input("enter the precnt discount: "))
+# vat = float(input("enter the vat"))
+# total = product_price*quntaty_products
+# discount = total*precnt_discount/100
+# totali = discount*vat/100
+# print("================================")
+# print("       PURCHASE INVOICE         ")
+# print("================================")
+# print(f"Customer: {custumer_name}")
+# print(f"Product: {products_name}")
 
-print(f"Unit Price: {product_price}")
-print(f"Quantity: {quntaty_products}")
+# print(f"Unit Price: {product_price}")
+# print(f"Quantity: {quntaty_products}")
 
-print(f"Subtotal: {total}")
-print(f"Discount: {total*precnt_discount/100}")
-print(f"After Discount: {total-discount}")
+# print(f"Subtotal: {total}")
+# print(f"Discount: {total*precnt_discount/100}")
+# print(f"After Discount: {total-discount}")
 
-print(f"VAT: {vat}%")
-print(f"VAT Amount: {(total-discount)*vat/100}")
-print(f"TOTAL: {(total-discount)+totali}")
+# print(f"VAT: {vat}%")
+# print(f"VAT Amount: {(total-discount)*vat/100}")
+# print(f"TOTAL: {(total-discount)+totali}")
 
-print(" THANK YOU FOR SHOPPING")
+# print(" THANK YOU FOR SHOPPING")
 
 
 
